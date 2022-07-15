@@ -1,0 +1,66 @@
+:root {
+  --main-color: #b254f6;
+}
+.logo span{
+  color: #65c8fee5;
+  transition: 0.3s linear;
+}
+
+.logo .light-active {
+  color: var(--main-color);
+}
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--main-color) !important;
+}
+.services {
+  background: #dbdbdbb7;
+}
+.main-icon {
+  font-size: 24px;
+  color: var(--main-color);
+}
+h3+ .line {
+  display: block;
+  margin: 0 28px;
+  width: 30px;
+  Transition: 1s linear;
+  border-top: 5px solid #e60af0;
+}
+h3+ .increase {
+  width: 200px;
+  border-top: 5px solid var(--main-color);
+}
+.achieve>div {
+  padding: 10px;
+  border: 1px solid #cbcecf8a;
+}
+.dark {
+  background: #dbdbdbb7;
+}
+.MEMBERSHIP {
+  width: 60%;
+  padding: 20px 10px;
+  margin: 23px auto;
+}
+.portfolio-image {
+  height: 150px;
+}
+.mycard {
+  width: 60%;
+  margin: 0 auto;
+  background: #dbdbdbb7;
+  border: none !important
+}
+
+@media(max-width: 766px) {
+  .mycard {
+    width: 18rem;
+    margin: 0 auto;
+  }
+}
+.myform {
+  margin: 20px 0 20px 32px;
+  width: 85%;
+}
