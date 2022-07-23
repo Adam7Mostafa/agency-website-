@@ -24,7 +24,8 @@
 h3+ .line {
   display: block;
   margin: 0 28px;
-  width: 30px;
+  width: 40px;
+  border-radius: 15px;
   Transition: 1s linear;
   border-top: 5px solid #e60af0;
 }
